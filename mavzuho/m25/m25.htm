@@ -1,0 +1,276 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:8.0pt;
+	margin-left:0cm;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+h1
+	{mso-style-link:"Заголовок 1 Знак";
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	line-height:107%;
+	page-break-after:avoid;
+	font-size:20.0pt;
+	font-family:"Times New Roman",serif;
+	color:black;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:8.0pt;
+	margin-left:36.0pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:8.0pt;
+	margin-left:36.0pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+span.1
+	{mso-style-name:"Заголовок 1 Знак";
+	mso-style-link:"Заголовок 1";
+	font-family:"Times New Roman",serif;
+	color:black;
+	font-weight:bold;}
+.MsoChpDefault
+	{font-family:"Calibri",sans-serif;}
+.MsoPapDefault
+	{margin-bottom:8.0pt;
+	line-height:107%;}
+@page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:2.0cm 42.5pt 2.0cm 3.0cm;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style>
+
+</head>
+
+<body lang=RU>
+
+<div class=WordSection1>
+
+<h1 align=center style='text-align:center'><a name="_Toc69869769"><span
+lang=TG style='font-size:18.0pt;line-height:107%'>25. МАСЪАЛАҲОИ ТАЪМИНИ
+БЕХАТАРИИ ДОДАҲО ВА КРИПТОГРАФИЯ</span></a></h1>
+
+<p class=MsoNormal><span lang=TG style='font-size:16.0pt;line-height:107%;
+font-family:"Times New Roman",serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt;line-height:normal'><span
+lang=TG style='font-size:16.0pt;font-family:"Times New Roman",serif'>25.1.
+Матни додашударо ба формати HEX табдил диҳед.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt;line-height:normal'><span
+lang=TG style='font-size:16.0pt;font-family:"Times New Roman",serif'>25.2.
+Матни додашударо ба формати BASE64 табдил диҳед.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt;line-height:normal'><span
+lang=TG style='font-size:16.0pt;font-family:"Times New Roman",serif'>25.3.
+Барнома барои барқарор намудани матни шифршудаи формати BASE64 тартиб диҳед.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt;line-height:normal'><span
+lang=TG style='font-size:16.0pt;font-family:"Times New Roman",serif'>25.4.
+Адади калони бутун дода шудааст. Бо истифода аз пакети OpenSSL квадрати ин
+ададро ҳисоб намоед.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt;line-height:normal'><span
+lang=TG style='font-size:16.0pt;font-family:"Times New Roman",serif'>25.5. Бо
+истифода аз пакети OpenSSL ё Microsoft CryptoAPI ба матни додашуда аз рӯи
+алгоритми MD5 хеш ҳисоб намоед. </span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt;line-height:normal'><span
+lang=TG style='font-size:16.0pt;font-family:"Times New Roman",serif'>25.6. Бо
+истифода аз пакети OpenSSL ё Microsoft CryptoAPI ба матни додашуда аз рӯи
+алгоритми HMACSHA512 хеш ҳисоб намоед. </span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt;line-height:normal'><span
+lang=TG style='font-size:16.0pt;font-family:"Times New Roman",serif'>25.7. Бо
+истифода аз пакети OpenSSL ё Microsoft CryptoAPI ба матни додашуда аз рӯи
+алгоритми SHA1 хеш ҳисоб намоед.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt;line-height:normal'><span
+lang=TG style='font-size:16.0pt;font-family:"Times New Roman",serif'>25.8. Бо
+истифода аз пакети OpenSSL ё Microsoft CryptoAPI ба матни додашуда аз рӯи
+алгоритми SHA256 хеш ҳисоб намоед.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt;line-height:normal'><span
+lang=TG style='font-size:16.0pt;font-family:"Times New Roman",serif'>25.9.
+Адади тасодуфӣ аз рӯи формулаи зерин муайян карда мешавад: </span></p>
+
+<p class=MsoListParagraph align=center style='margin-top:0cm;margin-right:0cm;
+margin-bottom:6.0pt;margin-left:0cm;text-align:center;line-height:normal'><span
+lang=TG style='font-size:16.0pt;font-family:"Times New Roman",serif'>X<sub>k+1 </sub>=
+(a*X<sub>k</sub> + c) mod m</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt;line-height:normal'><span
+lang=TG style='font-size:16.0pt;font-family:"Times New Roman",serif'>дар ин ҷо
+a, c, m коэффисентҳои бутун буда, X<sub>k</sub> қимати аввала мебошад. Аз рӯи
+формула адади тасодуфӣ ҳосил намоед.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt;line-height:normal'><span
+lang=TG style='font-size:16.0pt;font-family:"Times New Roman",serif'>25.10. Бо
+истифода аз пакети OpenSSL ё Microsoft CryptoAPI псевдо-рамз бо дарозии
+додашуда ҳосил намоед.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt;line-height:normal'><span
+lang=TG style='font-size:16.0pt;font-family:"Times New Roman",serif'>25.11.
+Барои шифронӣ намудани матни забони англисӣ ҳарфҳо мувофиқи тартиби алфавитҳои
+русӣ ва англисӣ  истифода мешаванд (a,b,c,d… - а,б,в,г..). Барнома барои шифр
+намудани матни англисӣ бо иваз намудани ҳарфҳои мувофиқ тартиб диҳед. </span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt;line-height:normal'><span
+lang=TG style='font-size:16.0pt;font-family:"Times New Roman",serif'>25.12.
+Матн ва рамз дода шудааст. Бо истифода аз пакети OpenSSL матни додашударо аз
+рӯи алгоритми Blowfish шифр намоед.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt;line-height:normal'><span
+lang=TG style='font-size:16.0pt;font-family:"Times New Roman",serif'>25.13. Бо
+истифода аз пакети OpenSSL ё Microsoft CryptoAPI матни додашударо аз рӯи
+алгоритми DES шифр намоед. Калиди шифр дода мешавад. Фарқи реҷаҳои алгоритми
+DES-ро шарҳ диҳед.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt;line-height:normal'><span
+lang=TG style='font-size:16.0pt;font-family:"Times New Roman",serif'>25.14. Бо
+истифода аз пакети OpenSSL ё Microsoft CryptoAPI матни додашударо аз рӯи
+алгоритми 3DES шифр намоед. Калиди шифр дода мешавад.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt;line-height:normal'><span
+lang=TG style='font-size:16.0pt;font-family:"Times New Roman",serif'>25.15. Бо
+истифода аз пакети OpenSSL ё Microsoft CryptoAPI матни додашударо аз рӯи
+алгоритми AES (Rijndael) шифр намоед. Калиди шифр дода мешавад.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt;line-height:normal'><span
+lang=TG style='font-size:16.0pt;font-family:"Times New Roman",serif'>25.16. Бо
+истифода аз пакети OpenSSL ё Microsoft CryptoAPI ҷуфти калиди шифр барои
+алгоритми RSA ҳосил намоед. </span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt;line-height:normal'><span
+lang=TG style='font-size:16.0pt;font-family:"Times New Roman",serif'>25.17. RSA
+калиди пӯшида дар формати PEM дода шудааст. Бо истифода аз пакети OpenSSL ё
+Microsoft CryptoAPI барнома барои табдилдиҳии калид барои истифода дар
+CryptoAPI таҳия намоед.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt;line-height:normal'><span
+lang=TG style='font-size:16.0pt;font-family:"Times New Roman",serif'>25.18. RSA
+калиди кушода дар формати PEM дода шудааст. Бо истифода аз пакети OpenSSL ё
+Microsoft CryptoAPI барнома барои табдилдиҳии калид барои истифода дар
+CryptoAPI таҳия намоед.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt;line-height:normal'><span
+lang=TG style='font-size:16.0pt;font-family:"Times New Roman",serif'>25.19. Бо
+истифода аз пакети OpenSSL ё Microsoft CryptoAPI рамзи додашуда аз рӯи
+алгоритми RSA шифр карда шавад. Калиди пӯшида дода шудааст.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt;line-height:normal'><span
+lang=TG style='font-size:16.0pt;font-family:"Times New Roman",serif'>25.20. Бо
+истифода аз пакети OpenSSL ё Microsoft CryptoAPI рамз аз рӯи алгоритми RSA
+барқарор карда шавад. Рамзи шифршуда ва калиди кушода дода шудаанд.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt;line-height:normal'><span
+lang=TG style='font-size:16.0pt;font-family:"Times New Roman",serif'>25.21. Бо
+истифода аз пакети OpenSSL ё Microsoft CryptoAPI ба матни додашуда имзои
+электронии рақамӣ аз рӯи алгоритми RSA ҳосил намоед. Калиди пӯшида дода
+шудааст. </span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt;line-height:normal'><span
+lang=TG style='font-size:16.0pt;font-family:"Times New Roman",serif'>25.22. Бо
+истифода аз пакети OpenSSL ё Microsoft CryptoAPI имзои электронии рақамии матни
+додашуда санҷида шавад. Имзои рақамӣ аз рӯи алгоритми RSA ҳосил шуда, калиди
+кушода дода шудааст.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt;line-height:normal'><span
+lang=TG style='font-size:16.0pt;font-family:"Times New Roman",serif'>25.23. Бо
+истифода аз пакети OpenSSL ё Microsoft CryptoAPI сертификати  X.509 ҳосил
+намоед. Маълумотҳои сертификат ихтиёрист.  </span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt;line-height:normal'><span
+lang=TG style='font-size:16.0pt;font-family:"Times New Roman",serif'>25.24.
+Сертификати X.509 ба намуди файл дода шудааст. Бо истифода аз пакети OpenSSL ё
+Microsoft CryptoAPI барнома барои инъикоси маълумотҳои ин сертификат тартиб
+диҳед.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt;line-height:normal'><span
+lang=TG style='font-size:16.0pt;font-family:"Times New Roman",serif'>25.25.
+Сертификати X.509 ба намуди файл дода шудааст. Бо истифода аз пакети OpenSSL ё
+Microsoft CryptoAPI калиди кушодаро аз сертификат ҳосил намоед. </span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt;line-height:normal'><span
+lang=TG style='font-size:16.0pt;font-family:"Times New Roman",serif'>25.26. Матн
+дода шудааст. Барнома барои фишурдани матн бо истифода аз пакети zlib тартиб
+диҳед.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt;line-height:normal'><span
+lang=TG style='font-size:16.0pt;font-family:"Times New Roman",serif'>25.27.
+Матн дода шудааст. Барнома барои фишурдани матн аз рӯи алгоритми Хаффман тартиб
+диҳед. Барои коркарди барнома аз пакетҳои озодасос истифода бурда метавонед. </span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt;line-height:normal'><span
+lang=TG style='font-size:16.0pt;font-family:"Times New Roman",serif'>25.28.
+Матн дода шудааст. Барнома барои фишурдани матн аз рӯи алгоритм Шеннон тартиб
+диҳед. Барои коркарди барнома аз пакетҳои озодасос истифода бурда метавонед.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt;line-height:normal'><span
+lang=TG style='font-size:16.0pt;font-family:"Times New Roman",serif'>25.29.
+Сертификати намуди X.509 формати PEM ва калиди пӯшидаи он дода шудааст.  Бо истифода
+аз пакети OpenSSL ё Microsoft CryptoAPI сертификати намуди PKCS # 12 ҳосил
+намоед.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt;line-height:normal'><span
+lang=TG style='font-size:16.0pt;font-family:"Times New Roman",serif'>25.30.
+Сертификати намуди X.509 формати PEM дода шудааст.  Бо истифода аз пакети
+OpenSSL ё Microsoft CryptoAPI сертификати формати DER ҳосил намоед.</span></p>
+
+<span lang=TG style='font-size:11.0pt;line-height:107%;font-family:"Times New Roman",serif'><br
+clear=all style='page-break-before:always'>
+</span>
+
+<p class=MsoNormal><span lang=TG>&nbsp;</span></p>
+
+</div>
+
+</body>
+
+</html>

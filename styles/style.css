@@ -1,0 +1,37 @@
+html {
+  background-color: #FFF8DC;
+}
+p {
+  color: black;
+  width: 500px;
+  border: 1px solid black;
+}
+body {
+  width: 900px;
+  margin: 0 auto;
+  background-color: #D8BFD8;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+}
+h1 {
+  margin: 0;
+  padding: 20px 0;
+  color: #00539F;
+  text-shadow: 3px 2px 1px black;
+}
+img {
+  display: block;
+  margin: 0 auto;
+}
+ol {
+  list-style-type: decimal;
+  
+}
+
+ul li {
+  padding-left: 2rem;
+  background-image: url(star.svg);
+  background-position: 0 0;
+  background-size: 1.6rem 1.6rem;
+  background-repeat: no-repeat;
+}
